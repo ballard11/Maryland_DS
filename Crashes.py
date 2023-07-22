@@ -5,7 +5,7 @@ import plotly.express as px
 from dash.dependencies import Input, Output
 
 # Import the data
-df = pd.read_csv('C:\\Users\\Ben\\OneDrive\\Documents\\Maryland_Statewide_Vehicle_Crashes.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/ballard11/Maryland_DS/master/DF_output.csv')
 
 # Convert ACC_DATE to datetime format
 df['ACC_DATE'] = pd.to_datetime(df['ACC_DATE'], format='%Y%m%d')
