@@ -23,6 +23,8 @@ county_counts = df.groupby(['COUNTY_DESC', 'REPORT_TYPE']).size().unstack(fill_v
 
 # Create the Dash app
 app = dash.Dash(__name__)
+server = app.server
+
 
 # Define the app layout
 app.layout = html.Div([
