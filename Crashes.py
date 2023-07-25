@@ -5,17 +5,7 @@ import plotly.express as px
 from dash.dependencies import Input, Output
 
 # Import the data
-df = pd.read_csv('DF_output.csv')
-
-# Convert ACC_DATE to datetime format
-df['ACC_DATE'] = pd.to_datetime(df['ACC_DATE'], format='%Y%m%d')
-
-# Combine ACC_DATE and ACC_TIME into a single datetime column
-df['ACC_DATETIME'] = pd.to_datetime(df['ACC_DATE'].astype(str) + ' ' + df['ACC_TIME'])
-
-# Extract hour and month from ACC_DATETIME
-df['HOUR'] = df['ACC_DATETIME'].dt.hour
-df['MONTH'] = df['ACC_DATETIME'].dt.month
+df = pd.read_csv('DF_Output_Processed.csv')
 
 # Pre-compute the data for the plots
 hourly_counts = df.groupby(['HOUR', 'COUNTY_DESC', 'REPORT_TYPE']).size().reset_index()
@@ -55,7 +45,7 @@ app.layout = html.Div([
             id='map-dropdown',
             options=[{'label': i, 'value': i} for i in df['REPORT_TYPE'].dropna().unique()],
             value='Property Damage Crash',
-        style={'height': '75vh', 'width': '75%'}
+        style={'width': '50%'}
         ),
         dcc.Graph(id='map-graph')
     ])
@@ -94,6 +84,8 @@ def update_map_graph(crash_type):
         df_filtered,
         lat='LATITUDE',
         lon='LONGITUDE',
+        width=1000,
+        height=800,
         color='REPORT_TYPE',
         color_continuous_scale=px.colors.cyclical.IceFire,
         title='Crash locations in Maryland',
