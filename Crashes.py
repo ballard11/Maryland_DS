@@ -45,7 +45,9 @@ app.layout = html.Div([
             id='map-dropdown',
             options=[{'label': i, 'value': i} for i in df['REPORT_TYPE'].dropna().unique()],
             value='Property Damage Crash',
+
         style={'width': '50%'}
+
         ),
         dcc.Graph(id='map-graph')
     ])
