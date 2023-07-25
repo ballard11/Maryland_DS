@@ -12,6 +12,25 @@ hourly_counts = df.groupby(['HOUR', 'COUNTY_DESC', 'REPORT_TYPE']).size().reset_
 hourly_counts.columns = ['HOUR', 'COUNTY_DESC', 'REPORT_TYPE', 'COUNT']
 county_counts = df.groupby(['COUNTY_DESC', 'REPORT_TYPE']).size().unstack(fill_value=0).reset_index()
 
+#For Long Term Trends
+daily_counts = df.groupby(['ACC_DATE', 'COUNTY_DESC']).size().reset_index()
+daily_counts.columns = ['ACC_DATE', 'COUNTY_DESC', 'COUNT']
+# Convert ACC_DATE from index to a column
+daily_counts.reset_index(inplace=True)
+# Create a 'day_of_year' column
+daily_counts['day_of_year'] = daily_counts['ACC_DATE'].dt.dayofyear
+# Split the data into pre-COVID and post-COVID periods
+pre_covid = daily_counts[daily_counts['ACC_DATE'] < '2020-03-1']
+post_covid = daily_counts[daily_counts['ACC_DATE'] >= '2020-03-1']
+# Calculate the average daily crash rate for each day of the year in the pre-COVID period
+pre_covid_avg = pre_covid.groupby('day_of_year')['COUNT'].mean()
+# Merge pre-covid average to post-covid DataFrame
+post_covid = post_covid.merge(pre_covid_avg, on='day_of_year', how='left', suffixes=('_post', '_pre'))
+# Calculate the crash rates as a percentage of the pre-covid baseline
+post_covid['percentage_of_pre_covid'] = (post_covid['COUNT_post'] / post_covid['COUNT_pre']) * 100
+
+
+
 # Create the Dash app
 app = dash.Dash(__name__)
 server = app.server
@@ -45,16 +64,19 @@ app.layout = html.Div([
             id='map-dropdown',
             options=[{'label': i, 'value': i} for i in df['REPORT_TYPE'].dropna().unique()],
             value='Property Damage Crash',
-
         style={'width': '50%'}
-
         ),
         dcc.Graph(id='map-graph')
+    ]),
+    html.Div([
+        html.H2("COVID-19 Crash Analysis"),
+        dcc.Graph(id='covid-graph')
     ])
+    
 ])
 
 
-# Define the app callbacks
+## Define the app callbacks
 
 #Hourly Crash
 @app.callback(
@@ -75,6 +97,34 @@ def update_county_graph(crash_type):
     else:  # If not, create an empty figure
         fig = px.bar(title='No data available for the selected crash type')
     return fig
+
+#COVID Crash Analysis
+@app.callback(
+    Output('covid-graph', 'figure'),
+    [Input('county-dropdown', 'value')])  # This input isn't used, but you can replace it as needed
+def update_covid_graph(crash_type):  # This input isn't used, but you can replace it as needed
+    # The data wrangling steps go here
+    daily_counts.reset_index(inplace=True)
+    daily_counts['day_of_year'] = daily_counts['ACC_DATE'].dt.dayofyear
+    pre_covid = daily_counts[daily_counts['ACC_DATE'] < '2020-03-1']
+    post_covid = daily_counts[daily_counts['ACC_DATE'] >= '2020-03-1']
+    pre_covid_avg = pre_covid.groupby('day_of_year')['COUNT'].mean()
+    post_covid = post_covid.merge(pre_covid_avg, on='day_of_year', how='left', suffixes=('_post', '_pre'))
+    post_covid['percentage_of_pre_covid'] = (post_covid['COUNT_post'] / post_covid['COUNT_pre']) * 100
+    post_covid['Day_of_Year'] = post_covid['ACC_DATE'].dt.dayofyear
+    post_covid['Year'] = post_covid['ACC_DATE'].dt.year
+    post_covid['percentage_of_pre_covid_smooth'] = post_covid['percentage_of_pre_covid'].rolling(window=30).mean()
+
+    # The graph creation steps go here
+    fig = px.line(post_covid, x='Day_of_Year', y='percentage_of_pre_covid_smooth', color='Year',
+                  title='30-Day Smoothed Daily Crashes as a Percentage of Pre-COVID Baseline')
+    fig.add_shape(type='line', xref='paper', yref='y', x0=0, x1=1, y0=100, y1=100, line=dict(color='Red', dash='dot'))
+    months_in_year = [i*30 for i in range(13)]
+    month_names = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec', '']
+    fig.update_xaxes(tickvals=months_in_year, ticktext=month_names)
+    
+    return fig
+
 
 #Map Crash
 @app.callback(
