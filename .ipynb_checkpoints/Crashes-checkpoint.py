@@ -12,7 +12,7 @@ county_counts = pd.read_csv('Assets/county_counts.csv')
 
 
 # Create the Dash app
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, assets_folder='Assets')
 server = app.server
 
 # Define the app layout
