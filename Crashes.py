@@ -7,26 +7,6 @@ from dash.dependencies import Input, Output
 # Import the data
 df = pd.read_csv('DF_Output_Processed.csv')
 
-# Pre-compute the data for the plots
-hourly_counts = df.groupby(['HOUR', 'COUNTY_DESC', 'REPORT_TYPE']).size().reset_index()
-hourly_counts.columns = ['HOUR', 'COUNTY_DESC', 'REPORT_TYPE', 'COUNT']
-county_counts = df.groupby(['COUNTY_DESC', 'REPORT_TYPE']).size().unstack(fill_value=0).reset_index()
-
-#For Long Term Trends
-daily_counts = df.groupby(['ACC_DATE', 'COUNTY_DESC']).size().reset_index()
-daily_counts['ACC_DATE'] = pd.to_datetime(daily_counts['ACC_DATE'])
-daily_counts.columns = ['ACC_DATE', 'COUNTY_DESC', 'COUNT']
-daily_counts.reset_index(inplace=True)
-daily_counts['day_of_year'] = daily_counts['ACC_DATE'].dt.dayofyear
-pre_covid = daily_counts[daily_counts['ACC_DATE'] < '2020-03-1']
-post_covid = daily_counts[daily_counts['ACC_DATE'] >= '2020-03-1']
-pre_covid_avg = pre_covid.groupby('day_of_year')['COUNT'].mean()
-post_covid = post_covid.merge(pre_covid_avg, on='day_of_year', how='left', suffixes=('_post', '_pre'))
-post_covid['percentage_of_pre_covid'] = (post_covid['COUNT_post'] / post_covid['COUNT_pre']) * 100
-post_covid['Day_of_Year'] = post_covid['ACC_DATE'].dt.dayofyear
-post_covid['Year'] = post_covid['ACC_DATE'].dt.year
-post_covid['percentage_of_pre_covid_smooth'] = post_covid['percentage_of_pre_covid'].rolling(window=30).mean()
-
 # Create the Dash app
 app = dash.Dash(__name__)
 server = app.server
