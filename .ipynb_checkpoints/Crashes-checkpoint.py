@@ -6,6 +6,10 @@ from dash.dependencies import Input, Output
 
 # Import the data
 df = pd.read_csv('DF_Output_Processed.csv')
+hourly_counts = pd.read_csv('hourly_counts.csv')
+post_covid = pd.read_csv('post_covid.csv')
+county_counts = pd.read_csv('county_counts.csv')
+
 
 # Create the Dash app
 app = dash.Dash(__name__)
