@@ -33,7 +33,10 @@ server = app.server
 
 # Define the app layout
 app.layout = html.Div([
-    html.H1("Maryland Car Crash Analysis"),
+    html.Div([
+        html.H1("Maryland Car Crash Analysis", style={'display': 'inline-block'}),
+        html.Img(src=app.get_asset_url('maryland.png'), style={'position': 'absolute', 'right': '0', 'top': '0'})
+    ]),
     
     html.Div([
         dcc.Dropdown(
