@@ -6,13 +6,14 @@ from dash.dependencies import Input, Output
 
 # Import the data
 df = pd.read_csv('DF_Output_Processed.csv')
+
 hourly_counts = pd.read_csv('Assets/hourly_counts.csv')
 post_covid = pd.read_csv('Assets/post_covid.csv')
 county_counts = pd.read_csv('Assets/county_counts.csv')
-
+monthly_counts = pd.read_csv('Assets/monthly_counts.csv')
 
 # Create the Dash app
-app = dash.Dash(__name__, assets_folder='Assets')
+app = dash.Dash(__name__)
 server = app.server
 
 # Define the app layout
@@ -20,6 +21,16 @@ app.layout = html.Div([
     html.Div([
         html.H1("Maryland Car Crash Analysis", style={'display': 'inline-block'}),
         html.Img(src=app.get_asset_url('maryland.png'), style={'position': 'absolute', 'right': '0', 'top': '0'})
+    ]),
+    
+    html.Div([
+        dcc.Dropdown(
+            id='monthly-dropdown',
+            options=[{'label': i, 'value': i} for i in df['REPORT_TYPE'].dropna().unique()],
+            value='Fatal Crash',
+            style={"width": "50%"}
+        ),
+        dcc.Graph(id='monthly-graph')
     ]),
     
     html.Div([
@@ -60,6 +71,13 @@ app.layout = html.Div([
 
 
 ## Define the app callbacks
+@app.callback(
+    Output('monthly-graph', 'figure'),
+    Input('monthly-dropdown', 'value'))
+def update_monthly_graph(crash_type):
+    filtered_df = monthly_counts[monthly_counts['REPORT_TYPE'] == crash_type]
+    fig = px.bar(filtered_df, x='MONTH', y='COUNT', color='COUNTY_DESC', title='Monthly Trend in Crashes')
+    return fig
 
 #Hourly Crash
 @app.callback(
