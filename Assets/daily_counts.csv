@@ -1,0 +1,106 @@
+DAY,COUNTY_DESC,REPORT_TYPE,COUNT
+0,Anne Arundel,Fatal Crash,38
+0,Anne Arundel,Injury Crash,2877
+0,Anne Arundel,Property Damage Crash,6680
+0,Howard,Fatal Crash,26
+0,Howard,Injury Crash,965
+0,Howard,Property Damage Crash,2837
+0,Montgomery,Fatal Crash,30
+0,Montgomery,Injury Crash,4250
+0,Montgomery,Property Damage Crash,8499
+0,Prince Georges,Fatal Crash,80
+0,Prince Georges,Injury Crash,4256
+0,Prince Georges,Property Damage Crash,13052
+0,Queen Annes,Fatal Crash,5
+0,Queen Annes,Injury Crash,191
+0,Queen Annes,Property Damage Crash,533
+1,Anne Arundel,Fatal Crash,38
+1,Anne Arundel,Injury Crash,3041
+1,Anne Arundel,Property Damage Crash,6886
+1,Howard,Fatal Crash,23
+1,Howard,Injury Crash,1012
+1,Howard,Property Damage Crash,2993
+1,Montgomery,Fatal Crash,27
+1,Montgomery,Injury Crash,4542
+1,Montgomery,Property Damage Crash,8855
+1,Prince Georges,Fatal Crash,68
+1,Prince Georges,Injury Crash,4420
+1,Prince Georges,Property Damage Crash,13103
+1,Queen Annes,Fatal Crash,3
+1,Queen Annes,Injury Crash,224
+1,Queen Annes,Property Damage Crash,499
+2,Anne Arundel,Fatal Crash,33
+2,Anne Arundel,Injury Crash,3031
+2,Anne Arundel,Property Damage Crash,6898
+2,Howard,Fatal Crash,21
+2,Howard,Injury Crash,1039
+2,Howard,Property Damage Crash,3016
+2,Montgomery,Fatal Crash,27
+2,Montgomery,Injury Crash,4395
+2,Montgomery,Property Damage Crash,8931
+2,Prince Georges,Fatal Crash,77
+2,Prince Georges,Injury Crash,4501
+2,Prince Georges,Property Damage Crash,12973
+2,Queen Annes,Fatal Crash,6
+2,Queen Annes,Injury Crash,237
+2,Queen Annes,Property Damage Crash,555
+3,Anne Arundel,Fatal Crash,47
+3,Anne Arundel,Injury Crash,3181
+3,Anne Arundel,Property Damage Crash,7249
+3,Howard,Fatal Crash,21
+3,Howard,Injury Crash,1068
+3,Howard,Property Damage Crash,3086
+3,Montgomery,Fatal Crash,36
+3,Montgomery,Injury Crash,4505
+3,Montgomery,Property Damage Crash,8901
+3,Prince Georges,Fatal Crash,84
+3,Prince Georges,Injury Crash,4459
+3,Prince Georges,Property Damage Crash,13597
+3,Queen Annes,Fatal Crash,5
+3,Queen Annes,Injury Crash,225
+3,Queen Annes,Property Damage Crash,530
+4,Anne Arundel,Fatal Crash,44
+4,Anne Arundel,Injury Crash,3528
+4,Anne Arundel,Property Damage Crash,7908
+4,Howard,Fatal Crash,22
+4,Howard,Injury Crash,1075
+4,Howard,Property Damage Crash,3272
+4,Montgomery,Fatal Crash,40
+4,Montgomery,Injury Crash,4690
+4,Montgomery,Property Damage Crash,9376
+4,Prince Georges,Fatal Crash,77
+4,Prince Georges,Injury Crash,4891
+4,Prince Georges,Property Damage Crash,15749
+4,Queen Annes,Fatal Crash,4
+4,Queen Annes,Injury Crash,259
+4,Queen Annes,Property Damage Crash,642
+5,Anne Arundel,Fatal Crash,56
+5,Anne Arundel,Injury Crash,2926
+5,Anne Arundel,Property Damage Crash,6772
+5,Howard,Fatal Crash,23
+5,Howard,Injury Crash,836
+5,Howard,Property Damage Crash,2568
+5,Montgomery,Fatal Crash,43
+5,Montgomery,Injury Crash,3686
+5,Montgomery,Property Damage Crash,7876
+5,Prince Georges,Fatal Crash,126
+5,Prince Georges,Injury Crash,4916
+5,Prince Georges,Property Damage Crash,15733
+5,Queen Annes,Fatal Crash,8
+5,Queen Annes,Injury Crash,227
+5,Queen Annes,Property Damage Crash,556
+6,Anne Arundel,Fatal Crash,43
+6,Anne Arundel,Injury Crash,2309
+6,Anne Arundel,Property Damage Crash,5656
+6,Howard,Fatal Crash,26
+6,Howard,Injury Crash,706
+6,Howard,Property Damage Crash,2130
+6,Montgomery,Fatal Crash,36
+6,Montgomery,Injury Crash,3274
+6,Montgomery,Property Damage Crash,6654
+6,Prince Georges,Fatal Crash,113
+6,Prince Georges,Injury Crash,4235
+6,Prince Georges,Property Damage Crash,13532
+6,Queen Annes,Fatal Crash,9
+6,Queen Annes,Injury Crash,202
+6,Queen Annes,Property Damage Crash,532
