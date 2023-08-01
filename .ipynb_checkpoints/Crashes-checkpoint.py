@@ -11,6 +11,8 @@ hourly_counts = pd.read_csv('Assets/hourly_counts.csv')
 post_covid = pd.read_csv('Assets/post_covid.csv')
 county_counts = pd.read_csv('Assets/county_counts.csv')
 monthly_counts = pd.read_csv('Assets/monthly_counts.csv')
+daily_counts = pd.read_csv('Assets/daily_counts.csv')
+
 
 # Create the Dash app
 app = dash.Dash(__name__)
@@ -19,10 +21,30 @@ server = app.server
 # Define the app layout
 app.layout = html.Div([
     html.Div([
-        html.H1("Maryland Car Crash Analysis", style={'display': 'inline-block'}),
+        html.H1("Annapolis Car Crash Analysis", style={'display': 'inline-block'}),
         html.Img(src=app.get_asset_url('maryland.png'), style={'position': 'absolute', 'right': '0', 'top': '0'})
     ]),
     
+    html.Div([
+        dcc.Dropdown(
+            id='hourly-dropdown',
+            options=[{'label': i, 'value': i} for i in df['COUNTY_DESC'].dropna().unique()],
+            value='Anne Arundel',
+            style={"width": "50%"}
+        ),
+        dcc.Graph(id='hourly-graph')
+    ]),
+    
+    html.Div([
+        dcc.Dropdown(
+            id='day-dropdown',
+            options=[{'label': i, 'value': i} for i in df['REPORT_TYPE'].dropna().unique()],
+            value='Property Damage Crash',
+            style={"width": "50%"}
+        ),
+        dcc.Graph(id='day-graph')
+    ]),
+        
     html.Div([
         dcc.Dropdown(
             id='monthly-dropdown',
@@ -31,16 +53,6 @@ app.layout = html.Div([
             style={"width": "50%"}
         ),
         dcc.Graph(id='monthly-graph')
-    ]),
-    
-    html.Div([
-        dcc.Dropdown(
-            id='hourly-dropdown',
-            options=[{'label': i, 'value': i} for i in df['REPORT_TYPE'].dropna().unique()],
-            value='Property Damage Crash',
-            style={"width": "50%"}
-        ),
-        dcc.Graph(id='hourly-graph')
     ]),
     
     html.Div([
@@ -54,21 +66,40 @@ app.layout = html.Div([
     ]),
     
     html.Div([
+        html.H2("COVID-19 Crash Analysis"),
+        dcc.Graph(id='covid-graph')
+    ]),
+    
+    html.Div([
         dcc.Dropdown(
             id='map-dropdown',
             options=[{'label': i, 'value': i} for i in df['REPORT_TYPE'].dropna().unique()],
-            value='Property Damage Crash',
+            value='Fatal Crash',
         style={'width': '50%'}
         ),
         dcc.Graph(id='map-graph')
-    ]),
-    html.Div([
-        html.H2("COVID-19 Crash Analysis"),
-        dcc.Graph(id='covid-graph')
     ])
     
 ])
 
+
+#Hourly Crash
+@app.callback(
+    Output('hourly-graph', 'figure'),
+    Input('hourly-dropdown', 'value'))
+def update_hourly_graph(crash_type):
+    filtered_df = hourly_counts[hourly_counts['COUNTY_DESC'] == crash_type]
+    fig = px.line(filtered_df, x='HOUR', y='COUNT', color='REPORT_TYPE', title='Hourly Trend in Crashes')
+    return fig
+
+#Day Crash
+@app.callback(
+    Output('day-graph', 'figure'),
+    Input('day-dropdown', 'value'))
+def update_day_graph(crash_type):
+    filtered_df = daily_counts[daily_counts['REPORT_TYPE'] == crash_type]
+    fig = px.line(filtered_df, x='DAY', y='COUNT', color='COUNTY_DESC', title='Daily Trend in Crashes')
+    return fig
 
 ## Define the app callbacks
 @app.callback(
@@ -77,15 +108,6 @@ app.layout = html.Div([
 def update_monthly_graph(crash_type):
     filtered_df = monthly_counts[monthly_counts['REPORT_TYPE'] == crash_type]
     fig = px.bar(filtered_df, x='MONTH', y='COUNT', color='COUNTY_DESC', title='Monthly Trend in Crashes')
-    return fig
-
-#Hourly Crash
-@app.callback(
-    Output('hourly-graph', 'figure'),
-    Input('hourly-dropdown', 'value'))
-def update_hourly_graph(crash_type):
-    filtered_df = hourly_counts[hourly_counts['REPORT_TYPE'] == crash_type]
-    fig = px.line(filtered_df, x='HOUR', y='COUNT', color='COUNTY_DESC', title='Hourly Trend in Crashes')
     return fig
 
 #County Crash
@@ -125,7 +147,7 @@ def update_map_graph(crash_type):
         df_filtered,
         lat='LATITUDE',
         lon='LONGITUDE',
-        width=1000,
+        width=1400,
         height=800,
         color='REPORT_TYPE',
         color_continuous_scale=px.colors.cyclical.IceFire,
