@@ -22,7 +22,7 @@ server = app.server
 app.layout = html.Div([
     html.Div([
         html.H1("Annapolis Car Crash Analysis", style={'display': 'inline-block'}),
-        html.Img(src=app.get_asset_url('maryland.png'), style={'position': 'absolute', 'right': '0', 'top': '0'})
+        html.Img(src=app.get_asset_url('Assets/maryland.png'), style={'position': 'absolute', 'right': '0', 'top': '0'})
     ]),
     
     html.Div([
