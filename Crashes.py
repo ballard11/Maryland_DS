@@ -7,11 +7,11 @@ from dash.dependencies import Input, Output
 # Import the data
 df = pd.read_csv('DF_Output_Processed.csv')
 
-hourly_counts = pd.read_csv('Assets/hourly_counts.csv')
-post_covid = pd.read_csv('Assets/post_covid.csv')
-county_counts = pd.read_csv('Assets/county_counts.csv')
-monthly_counts = pd.read_csv('Assets/monthly_counts.csv')
-daily_counts = pd.read_csv('Assets/daily_counts.csv')
+hourly_counts = pd.read_csv('assets/hourly_counts.csv')
+post_covid = pd.read_csv('assets/post_covid.csv')
+county_counts = pd.read_csv('assets/county_counts.csv')
+monthly_counts = pd.read_csv('assets/monthly_counts.csv')
+daily_counts = pd.read_csv('assets/daily_counts.csv')
 
 
 # Create the Dash app
