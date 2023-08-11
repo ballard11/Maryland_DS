@@ -124,7 +124,7 @@ def update_map_graph(crash_type):
         df_filtered,
         lat='LATITUDE',
         lon='LONGITUDE',
-        width=1200,
+        width=1600,
         height=800,
         color='REPORT_TYPE',
         color_continuous_scale=px.colors.cyclical.IceFire,
