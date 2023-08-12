@@ -26,7 +26,7 @@ app.layout = html.Div([
 
 html.P(
 
-"This dashboard uses python's plotly dash to show Car Crashes Trends in Maryland over the last several years." 
+"This dashboard uses python's plotly dash to show car crashes trends in Maryland over the last several years." 
 "Data on from Maryland. https://opendata.maryland.gov/Public-Safety/Maryland-Statewide-Vehicle-Crashes/65du-s3qu"  
 "Check out the code at https://github.com/ballard11/Maryland_DS"
         , style={"margin": "20px"}),
@@ -135,7 +135,7 @@ def update_map_graph(crash_type):
         df_filtered,
         lat='LATITUDE',
         lon='LONGITUDE',
-        width=1400,
+        width=1600,
         height=800,
         color='REPORT_TYPE',
         color_continuous_scale=px.colors.cyclical.IceFire,
