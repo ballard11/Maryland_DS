@@ -26,8 +26,8 @@ app.layout = html.Div([
 
 html.P(
 
-"The following is a dashboard uses python and plotly to display trends on Car Crashes in Maryland over the last several years." 
-"Data on Maryland Car Crashes from Maryland. https://opendata.maryland.gov/Public-Safety/Maryland-Statewide-Vehicle-Crashes/65du-s3qu"  
+"This dashboard uses python's plotly dash to show Car Crashes Trends in Maryland over the last several years." 
+"Data on from Maryland. https://opendata.maryland.gov/Public-Safety/Maryland-Statewide-Vehicle-Crashes/65du-s3qu"  
 "Check out the code at https://github.com/ballard11/Maryland_DS"
         , style={"margin": "20px"}),
 
