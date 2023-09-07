@@ -14,10 +14,9 @@ This repository contains a Plotly Dash application that analyzes car crash data 
 
 Data on Maryland Car Crashes from Maryland.
 https://opendata.maryland.gov/Public-Safety/Maryland-Statewide-Vehicle-Crashes/65du-s3qu
+* Update: It appears Maryland has changed how this data is accessed: https://opendata.maryland.gov/stories/s/ggbs-m2rv 
 
 The Crashes.py file creates plotly dashboard hosted here:
 https://maryland-crash-app.onrender.com/
 
 ![Dashboard Preview](./assets/dashboard.JPG)
-
-Note: This dashboard will receive updates - still in development.  Please reach out for questions or collaborations.

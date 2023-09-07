@@ -1,10 +1,47 @@
 HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
+0,Allegany,Injury Crash,22
+0,Allegany,Property Damage Crash,82
 0,Anne Arundel,Fatal Crash,12
 0,Anne Arundel,Injury Crash,348
 0,Anne Arundel,Property Damage Crash,1117
+0,Baltimore,Fatal Crash,15
+0,Baltimore,Injury Crash,685
+0,Baltimore,Property Damage Crash,4231
+0,Baltimore City,Fatal Crash,5
+0,Baltimore City,Injury Crash,990
+0,Baltimore City,Property Damage Crash,2931
+0,Calvert,Fatal Crash,1
+0,Calvert,Injury Crash,47
+0,Calvert,Property Damage Crash,124
+0,Caroline,Fatal Crash,2
+0,Caroline,Injury Crash,20
+0,Caroline,Property Damage Crash,42
+0,Carroll,Fatal Crash,5
+0,Carroll,Injury Crash,65
+0,Carroll,Property Damage Crash,206
+0,Cecil,Fatal Crash,3
+0,Cecil,Injury Crash,70
+0,Cecil,Property Damage Crash,238
+0,Charles,Fatal Crash,4
+0,Charles,Injury Crash,105
+0,Charles,Property Damage Crash,370
+0,Dorchester,Fatal Crash,1
+0,Dorchester,Injury Crash,24
+0,Dorchester,Property Damage Crash,58
+0,Frederick,Fatal Crash,8
+0,Frederick,Injury Crash,114
+0,Frederick,Property Damage Crash,332
+0,Garrett,Injury Crash,23
+0,Garrett,Property Damage Crash,68
+0,Harford,Fatal Crash,5
+0,Harford,Injury Crash,78
+0,Harford,Property Damage Crash,378
 0,Howard,Fatal Crash,10
 0,Howard,Injury Crash,144
 0,Howard,Property Damage Crash,432
+0,Kent,Fatal Crash,2
+0,Kent,Injury Crash,8
+0,Kent,Property Damage Crash,32
 0,Montgomery,Fatal Crash,6
 0,Montgomery,Injury Crash,424
 0,Montgomery,Property Damage Crash,1289
@@ -14,12 +51,67 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 0,Queen Annes,Fatal Crash,2
 0,Queen Annes,Injury Crash,29
 0,Queen Annes,Property Damage Crash,116
+0,Somerset,Injury Crash,13
+0,Somerset,Property Damage Crash,44
+0,St. Marys,Fatal Crash,6
+0,St. Marys,Injury Crash,79
+0,St. Marys,Property Damage Crash,188
+0,Talbot,Fatal Crash,2
+0,Talbot,Injury Crash,21
+0,Talbot,Property Damage Crash,106
+0,Washington,Fatal Crash,3
+0,Washington,Injury Crash,104
+0,Washington,Property Damage Crash,304
+0,Wicomico,Fatal Crash,3
+0,Wicomico,Injury Crash,70
+0,Wicomico,Property Damage Crash,236
+0,Worcester,Fatal Crash,5
+0,Worcester,Injury Crash,91
+0,Worcester,Property Damage Crash,169
+1,Allegany,Fatal Crash,3
+1,Allegany,Injury Crash,17
+1,Allegany,Property Damage Crash,67
 1,Anne Arundel,Fatal Crash,11
 1,Anne Arundel,Injury Crash,297
 1,Anne Arundel,Property Damage Crash,1005
+1,Baltimore,Fatal Crash,13
+1,Baltimore,Injury Crash,564
+1,Baltimore,Property Damage Crash,2472
+1,Baltimore City,Fatal Crash,7
+1,Baltimore City,Injury Crash,815
+1,Baltimore City,Property Damage Crash,2498
+1,Calvert,Fatal Crash,2
+1,Calvert,Injury Crash,33
+1,Calvert,Property Damage Crash,109
+1,Caroline,Fatal Crash,1
+1,Caroline,Injury Crash,16
+1,Caroline,Property Damage Crash,47
+1,Carroll,Fatal Crash,2
+1,Carroll,Injury Crash,54
+1,Carroll,Property Damage Crash,165
+1,Cecil,Fatal Crash,6
+1,Cecil,Injury Crash,48
+1,Cecil,Property Damage Crash,200
+1,Charles,Fatal Crash,7
+1,Charles,Injury Crash,104
+1,Charles,Property Damage Crash,338
+1,Dorchester,Fatal Crash,1
+1,Dorchester,Injury Crash,13
+1,Dorchester,Property Damage Crash,60
+1,Frederick,Fatal Crash,5
+1,Frederick,Injury Crash,109
+1,Frederick,Property Damage Crash,338
+1,Garrett,Fatal Crash,1
+1,Garrett,Injury Crash,19
+1,Garrett,Property Damage Crash,48
+1,Harford,Fatal Crash,6
+1,Harford,Injury Crash,86
+1,Harford,Property Damage Crash,262
 1,Howard,Fatal Crash,7
 1,Howard,Injury Crash,99
 1,Howard,Property Damage Crash,359
+1,Kent,Injury Crash,9
+1,Kent,Property Damage Crash,28
 1,Montgomery,Fatal Crash,11
 1,Montgomery,Injury Crash,363
 1,Montgomery,Property Damage Crash,1052
@@ -29,12 +121,66 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 1,Queen Annes,Fatal Crash,1
 1,Queen Annes,Injury Crash,31
 1,Queen Annes,Property Damage Crash,72
+1,Somerset,Fatal Crash,1
+1,Somerset,Injury Crash,11
+1,Somerset,Property Damage Crash,39
+1,St. Marys,Fatal Crash,5
+1,St. Marys,Injury Crash,67
+1,St. Marys,Property Damage Crash,170
+1,Talbot,Injury Crash,25
+1,Talbot,Property Damage Crash,68
+1,Washington,Fatal Crash,2
+1,Washington,Injury Crash,80
+1,Washington,Property Damage Crash,235
+1,Wicomico,Fatal Crash,2
+1,Wicomico,Injury Crash,75
+1,Wicomico,Property Damage Crash,203
+1,Worcester,Fatal Crash,2
+1,Worcester,Injury Crash,47
+1,Worcester,Property Damage Crash,203
+2,Allegany,Fatal Crash,1
+2,Allegany,Injury Crash,16
+2,Allegany,Property Damage Crash,64
 2,Anne Arundel,Fatal Crash,14
 2,Anne Arundel,Injury Crash,254
 2,Anne Arundel,Property Damage Crash,968
+2,Baltimore,Fatal Crash,10
+2,Baltimore,Injury Crash,537
+2,Baltimore,Property Damage Crash,2278
+2,Baltimore City,Fatal Crash,8
+2,Baltimore City,Injury Crash,738
+2,Baltimore City,Property Damage Crash,2431
+2,Calvert,Fatal Crash,1
+2,Calvert,Injury Crash,26
+2,Calvert,Property Damage Crash,106
+2,Caroline,Injury Crash,13
+2,Caroline,Property Damage Crash,36
+2,Carroll,Fatal Crash,1
+2,Carroll,Injury Crash,28
+2,Carroll,Property Damage Crash,132
+2,Cecil,Fatal Crash,6
+2,Cecil,Injury Crash,59
+2,Cecil,Property Damage Crash,196
+2,Charles,Fatal Crash,11
+2,Charles,Injury Crash,75
+2,Charles,Property Damage Crash,277
+2,Dorchester,Fatal Crash,1
+2,Dorchester,Injury Crash,21
+2,Dorchester,Property Damage Crash,67
+2,Frederick,Fatal Crash,5
+2,Frederick,Injury Crash,80
+2,Frederick,Property Damage Crash,271
+2,Garrett,Fatal Crash,1
+2,Garrett,Injury Crash,21
+2,Garrett,Property Damage Crash,60
+2,Harford,Fatal Crash,8
+2,Harford,Injury Crash,79
+2,Harford,Property Damage Crash,298
 2,Howard,Fatal Crash,11
 2,Howard,Injury Crash,101
 2,Howard,Property Damage Crash,346
+2,Kent,Injury Crash,7
+2,Kent,Property Damage Crash,31
 2,Montgomery,Fatal Crash,8
 2,Montgomery,Injury Crash,326
 2,Montgomery,Property Damage Crash,1009
@@ -44,12 +190,66 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 2,Queen Annes,Fatal Crash,2
 2,Queen Annes,Injury Crash,27
 2,Queen Annes,Property Damage Crash,81
+2,Somerset,Fatal Crash,1
+2,Somerset,Injury Crash,13
+2,Somerset,Property Damage Crash,34
+2,St. Marys,Fatal Crash,3
+2,St. Marys,Injury Crash,49
+2,St. Marys,Property Damage Crash,156
+2,Talbot,Injury Crash,13
+2,Talbot,Property Damage Crash,74
+2,Washington,Fatal Crash,6
+2,Washington,Injury Crash,54
+2,Washington,Property Damage Crash,220
+2,Wicomico,Injury Crash,60
+2,Wicomico,Property Damage Crash,212
+2,Worcester,Fatal Crash,4
+2,Worcester,Injury Crash,50
+2,Worcester,Property Damage Crash,211
+3,Allegany,Fatal Crash,1
+3,Allegany,Injury Crash,25
+3,Allegany,Property Damage Crash,50
 3,Anne Arundel,Fatal Crash,9
 3,Anne Arundel,Injury Crash,183
 3,Anne Arundel,Property Damage Crash,700
+3,Baltimore,Fatal Crash,13
+3,Baltimore,Injury Crash,332
+3,Baltimore,Property Damage Crash,1543
+3,Baltimore City,Fatal Crash,2
+3,Baltimore City,Injury Crash,426
+3,Baltimore City,Property Damage Crash,1553
+3,Calvert,Fatal Crash,3
+3,Calvert,Injury Crash,22
+3,Calvert,Property Damage Crash,101
+3,Caroline,Fatal Crash,3
+3,Caroline,Injury Crash,12
+3,Caroline,Property Damage Crash,30
+3,Carroll,Fatal Crash,4
+3,Carroll,Injury Crash,18
+3,Carroll,Property Damage Crash,100
+3,Cecil,Fatal Crash,1
+3,Cecil,Injury Crash,35
+3,Cecil,Property Damage Crash,168
+3,Charles,Fatal Crash,6
+3,Charles,Injury Crash,44
+3,Charles,Property Damage Crash,239
+3,Dorchester,Injury Crash,15
+3,Dorchester,Property Damage Crash,59
+3,Frederick,Fatal Crash,5
+3,Frederick,Injury Crash,68
+3,Frederick,Property Damage Crash,238
+3,Garrett,Fatal Crash,2
+3,Garrett,Injury Crash,6
+3,Garrett,Property Damage Crash,42
+3,Harford,Fatal Crash,2
+3,Harford,Injury Crash,62
+3,Harford,Property Damage Crash,214
 3,Howard,Fatal Crash,9
 3,Howard,Injury Crash,72
 3,Howard,Property Damage Crash,282
+3,Kent,Fatal Crash,1
+3,Kent,Injury Crash,3
+3,Kent,Property Damage Crash,19
 3,Montgomery,Fatal Crash,8
 3,Montgomery,Injury Crash,294
 3,Montgomery,Property Damage Crash,957
@@ -58,12 +258,63 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 3,Prince Georges,Property Damage Crash,2114
 3,Queen Annes,Injury Crash,13
 3,Queen Annes,Property Damage Crash,67
+3,Somerset,Injury Crash,11
+3,Somerset,Property Damage Crash,24
+3,St. Marys,Fatal Crash,2
+3,St. Marys,Injury Crash,35
+3,St. Marys,Property Damage Crash,118
+3,Talbot,Fatal Crash,1
+3,Talbot,Injury Crash,9
+3,Talbot,Property Damage Crash,60
+3,Washington,Fatal Crash,1
+3,Washington,Injury Crash,52
+3,Washington,Property Damage Crash,205
+3,Wicomico,Fatal Crash,1
+3,Wicomico,Injury Crash,40
+3,Wicomico,Property Damage Crash,159
+3,Worcester,Fatal Crash,5
+3,Worcester,Injury Crash,27
+3,Worcester,Property Damage Crash,129
+4,Allegany,Injury Crash,23
+4,Allegany,Property Damage Crash,62
 4,Anne Arundel,Fatal Crash,7
 4,Anne Arundel,Injury Crash,209
 4,Anne Arundel,Property Damage Crash,631
+4,Baltimore,Fatal Crash,8
+4,Baltimore,Injury Crash,258
+4,Baltimore,Property Damage Crash,1329
+4,Baltimore City,Fatal Crash,4
+4,Baltimore City,Injury Crash,318
+4,Baltimore City,Property Damage Crash,1117
+4,Calvert,Injury Crash,27
+4,Calvert,Property Damage Crash,108
+4,Caroline,Injury Crash,14
+4,Caroline,Property Damage Crash,49
+4,Carroll,Fatal Crash,4
+4,Carroll,Injury Crash,32
+4,Carroll,Property Damage Crash,105
+4,Cecil,Fatal Crash,1
+4,Cecil,Injury Crash,35
+4,Cecil,Property Damage Crash,152
+4,Charles,Fatal Crash,2
+4,Charles,Injury Crash,67
+4,Charles,Property Damage Crash,269
+4,Dorchester,Injury Crash,10
+4,Dorchester,Property Damage Crash,43
+4,Frederick,Fatal Crash,9
+4,Frederick,Injury Crash,81
+4,Frederick,Property Damage Crash,282
+4,Garrett,Fatal Crash,1
+4,Garrett,Injury Crash,18
+4,Garrett,Property Damage Crash,49
+4,Harford,Fatal Crash,2
+4,Harford,Injury Crash,58
+4,Harford,Property Damage Crash,199
 4,Howard,Fatal Crash,8
 4,Howard,Injury Crash,87
 4,Howard,Property Damage Crash,279
+4,Kent,Injury Crash,6
+4,Kent,Property Damage Crash,20
 4,Montgomery,Fatal Crash,8
 4,Montgomery,Injury Crash,319
 4,Montgomery,Property Damage Crash,843
@@ -72,12 +323,66 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 4,Prince Georges,Property Damage Crash,1678
 4,Queen Annes,Injury Crash,20
 4,Queen Annes,Property Damage Crash,75
+4,Somerset,Injury Crash,9
+4,Somerset,Property Damage Crash,26
+4,St. Marys,Injury Crash,38
+4,St. Marys,Property Damage Crash,106
+4,Talbot,Fatal Crash,1
+4,Talbot,Injury Crash,18
+4,Talbot,Property Damage Crash,59
+4,Washington,Fatal Crash,6
+4,Washington,Injury Crash,58
+4,Washington,Property Damage Crash,185
+4,Wicomico,Fatal Crash,2
+4,Wicomico,Injury Crash,41
+4,Wicomico,Property Damage Crash,128
+4,Worcester,Fatal Crash,3
+4,Worcester,Injury Crash,13
+4,Worcester,Property Damage Crash,69
+5,Allegany,Fatal Crash,2
+5,Allegany,Injury Crash,37
+5,Allegany,Property Damage Crash,68
 5,Anne Arundel,Fatal Crash,14
 5,Anne Arundel,Injury Crash,300
 5,Anne Arundel,Property Damage Crash,903
+5,Baltimore,Fatal Crash,7
+5,Baltimore,Injury Crash,438
+5,Baltimore,Property Damage Crash,1622
+5,Baltimore City,Fatal Crash,3
+5,Baltimore City,Injury Crash,441
+5,Baltimore City,Property Damage Crash,1207
+5,Calvert,Fatal Crash,3
+5,Calvert,Injury Crash,40
+5,Calvert,Property Damage Crash,152
+5,Caroline,Fatal Crash,3
+5,Caroline,Injury Crash,21
+5,Caroline,Property Damage Crash,82
+5,Carroll,Fatal Crash,2
+5,Carroll,Injury Crash,74
+5,Carroll,Property Damage Crash,212
+5,Cecil,Fatal Crash,5
+5,Cecil,Injury Crash,58
+5,Cecil,Property Damage Crash,209
+5,Charles,Fatal Crash,4
+5,Charles,Injury Crash,86
+5,Charles,Property Damage Crash,316
+5,Dorchester,Injury Crash,19
+5,Dorchester,Property Damage Crash,47
+5,Frederick,Fatal Crash,2
+5,Frederick,Injury Crash,143
+5,Frederick,Property Damage Crash,421
+5,Garrett,Fatal Crash,1
+5,Garrett,Injury Crash,16
+5,Garrett,Property Damage Crash,76
+5,Harford,Fatal Crash,6
+5,Harford,Injury Crash,109
+5,Harford,Property Damage Crash,302
 5,Howard,Fatal Crash,5
 5,Howard,Injury Crash,138
 5,Howard,Property Damage Crash,453
+5,Kent,Fatal Crash,1
+5,Kent,Injury Crash,5
+5,Kent,Property Damage Crash,29
 5,Montgomery,Fatal Crash,8
 5,Montgomery,Injury Crash,561
 5,Montgomery,Property Damage Crash,1096
@@ -86,12 +391,66 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 5,Prince Georges,Property Damage Crash,1993
 5,Queen Annes,Injury Crash,35
 5,Queen Annes,Property Damage Crash,109
+5,Somerset,Injury Crash,13
+5,Somerset,Property Damage Crash,41
+5,St. Marys,Fatal Crash,1
+5,St. Marys,Injury Crash,57
+5,St. Marys,Property Damage Crash,176
+5,Talbot,Injury Crash,22
+5,Talbot,Property Damage Crash,62
+5,Washington,Fatal Crash,3
+5,Washington,Injury Crash,95
+5,Washington,Property Damage Crash,261
+5,Wicomico,Injury Crash,44
+5,Wicomico,Property Damage Crash,167
+5,Worcester,Fatal Crash,1
+5,Worcester,Injury Crash,24
+5,Worcester,Property Damage Crash,126
+6,Allegany,Fatal Crash,1
+6,Allegany,Injury Crash,25
+6,Allegany,Property Damage Crash,117
 6,Anne Arundel,Fatal Crash,8
 6,Anne Arundel,Injury Crash,546
 6,Anne Arundel,Property Damage Crash,1376
+6,Baltimore,Fatal Crash,11
+6,Baltimore,Injury Crash,893
+6,Baltimore,Property Damage Crash,2617
+6,Baltimore City,Fatal Crash,5
+6,Baltimore City,Injury Crash,720
+6,Baltimore City,Property Damage Crash,1800
+6,Calvert,Fatal Crash,2
+6,Calvert,Injury Crash,76
+6,Calvert,Property Damage Crash,192
+6,Caroline,Fatal Crash,3
+6,Caroline,Injury Crash,40
+6,Caroline,Property Damage Crash,84
+6,Carroll,Fatal Crash,5
+6,Carroll,Injury Crash,101
+6,Carroll,Property Damage Crash,366
+6,Cecil,Fatal Crash,5
+6,Cecil,Injury Crash,98
+6,Cecil,Property Damage Crash,310
+6,Charles,Fatal Crash,1
+6,Charles,Injury Crash,125
+6,Charles,Property Damage Crash,409
+6,Dorchester,Fatal Crash,2
+6,Dorchester,Injury Crash,40
+6,Dorchester,Property Damage Crash,113
+6,Frederick,Fatal Crash,4
+6,Frederick,Injury Crash,210
+6,Frederick,Property Damage Crash,626
+6,Garrett,Fatal Crash,1
+6,Garrett,Injury Crash,27
+6,Garrett,Property Damage Crash,106
+6,Harford,Fatal Crash,5
+6,Harford,Injury Crash,195
+6,Harford,Property Damage Crash,574
 6,Howard,Fatal Crash,4
 6,Howard,Injury Crash,254
 6,Howard,Property Damage Crash,694
+6,Kent,Fatal Crash,1
+6,Kent,Injury Crash,8
+6,Kent,Property Damage Crash,49
 6,Montgomery,Fatal Crash,4
 6,Montgomery,Injury Crash,941
 6,Montgomery,Property Damage Crash,1746
@@ -101,12 +460,66 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 6,Queen Annes,Fatal Crash,3
 6,Queen Annes,Injury Crash,40
 6,Queen Annes,Property Damage Crash,157
+6,Somerset,Injury Crash,12
+6,Somerset,Property Damage Crash,50
+6,St. Marys,Fatal Crash,6
+6,St. Marys,Injury Crash,123
+6,St. Marys,Property Damage Crash,243
+6,Talbot,Fatal Crash,1
+6,Talbot,Injury Crash,51
+6,Talbot,Property Damage Crash,126
+6,Washington,Fatal Crash,6
+6,Washington,Injury Crash,147
+6,Washington,Property Damage Crash,358
+6,Wicomico,Fatal Crash,2
+6,Wicomico,Injury Crash,85
+6,Wicomico,Property Damage Crash,241
+6,Worcester,Fatal Crash,4
+6,Worcester,Injury Crash,41
+6,Worcester,Property Damage Crash,162
+7,Allegany,Fatal Crash,1
+7,Allegany,Injury Crash,49
+7,Allegany,Property Damage Crash,140
 7,Anne Arundel,Fatal Crash,7
 7,Anne Arundel,Injury Crash,927
 7,Anne Arundel,Property Damage Crash,2114
+7,Baltimore,Fatal Crash,10
+7,Baltimore,Injury Crash,1485
+7,Baltimore,Property Damage Crash,4437
+7,Baltimore City,Fatal Crash,4
+7,Baltimore City,Injury Crash,1414
+7,Baltimore City,Property Damage Crash,3094
+7,Calvert,Fatal Crash,1
+7,Calvert,Injury Crash,94
+7,Calvert,Property Damage Crash,239
+7,Caroline,Fatal Crash,3
+7,Caroline,Injury Crash,51
+7,Caroline,Property Damage Crash,121
+7,Carroll,Fatal Crash,3
+7,Carroll,Injury Crash,181
+7,Carroll,Property Damage Crash,541
+7,Cecil,Fatal Crash,5
+7,Cecil,Injury Crash,118
+7,Cecil,Property Damage Crash,348
+7,Charles,Fatal Crash,7
+7,Charles,Injury Crash,229
+7,Charles,Property Damage Crash,612
+7,Dorchester,Injury Crash,59
+7,Dorchester,Property Damage Crash,123
+7,Frederick,Fatal Crash,9
+7,Frederick,Injury Crash,368
+7,Frederick,Property Damage Crash,810
+7,Garrett,Injury Crash,36
+7,Garrett,Property Damage Crash,119
+7,Harford,Fatal Crash,5
+7,Harford,Injury Crash,265
+7,Harford,Property Damage Crash,762
 7,Howard,Fatal Crash,3
 7,Howard,Injury Crash,322
 7,Howard,Property Damage Crash,1004
+7,Kent,Fatal Crash,1
+7,Kent,Injury Crash,21
+7,Kent,Property Damage Crash,41
 7,Montgomery,Fatal Crash,10
 7,Montgomery,Injury Crash,1472
 7,Montgomery,Property Damage Crash,2733
@@ -116,12 +529,67 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 7,Queen Annes,Fatal Crash,2
 7,Queen Annes,Injury Crash,72
 7,Queen Annes,Property Damage Crash,161
+7,Somerset,Fatal Crash,1
+7,Somerset,Injury Crash,24
+7,Somerset,Property Damage Crash,77
+7,St. Marys,Fatal Crash,1
+7,St. Marys,Injury Crash,177
+7,St. Marys,Property Damage Crash,338
+7,Talbot,Fatal Crash,3
+7,Talbot,Injury Crash,95
+7,Talbot,Property Damage Crash,189
+7,Washington,Fatal Crash,5
+7,Washington,Injury Crash,207
+7,Washington,Property Damage Crash,544
+7,Wicomico,Fatal Crash,5
+7,Wicomico,Injury Crash,194
+7,Wicomico,Property Damage Crash,442
+7,Worcester,Injury Crash,80
+7,Worcester,Property Damage Crash,222
+8,Allegany,Fatal Crash,1
+8,Allegany,Injury Crash,55
+8,Allegany,Property Damage Crash,148
 8,Anne Arundel,Fatal Crash,5
 8,Anne Arundel,Injury Crash,1035
 8,Anne Arundel,Property Damage Crash,2298
+8,Baltimore,Fatal Crash,2
+8,Baltimore,Injury Crash,1634
+8,Baltimore,Property Damage Crash,5358
+8,Baltimore City,Fatal Crash,3
+8,Baltimore City,Injury Crash,1943
+8,Baltimore City,Property Damage Crash,4701
+8,Calvert,Fatal Crash,1
+8,Calvert,Injury Crash,111
+8,Calvert,Property Damage Crash,212
+8,Caroline,Fatal Crash,1
+8,Caroline,Injury Crash,48
+8,Caroline,Property Damage Crash,109
+8,Carroll,Fatal Crash,2
+8,Carroll,Injury Crash,147
+8,Carroll,Property Damage Crash,463
+8,Cecil,Fatal Crash,4
+8,Cecil,Injury Crash,110
+8,Cecil,Property Damage Crash,337
+8,Charles,Fatal Crash,2
+8,Charles,Injury Crash,233
+8,Charles,Property Damage Crash,585
+8,Dorchester,Fatal Crash,1
+8,Dorchester,Injury Crash,57
+8,Dorchester,Property Damage Crash,108
+8,Frederick,Fatal Crash,4
+8,Frederick,Injury Crash,348
+8,Frederick,Property Damage Crash,720
+8,Garrett,Injury Crash,46
+8,Garrett,Property Damage Crash,119
+8,Harford,Fatal Crash,2
+8,Harford,Injury Crash,279
+8,Harford,Property Damage Crash,673
 8,Howard,Fatal Crash,6
 8,Howard,Injury Crash,356
 8,Howard,Property Damage Crash,1048
+8,Kent,Fatal Crash,2
+8,Kent,Injury Crash,18
+8,Kent,Property Damage Crash,54
 8,Montgomery,Fatal Crash,8
 8,Montgomery,Injury Crash,1748
 8,Montgomery,Property Damage Crash,3359
@@ -131,12 +599,68 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 8,Queen Annes,Fatal Crash,2
 8,Queen Annes,Injury Crash,71
 8,Queen Annes,Property Damage Crash,156
+8,Somerset,Fatal Crash,1
+8,Somerset,Injury Crash,28
+8,Somerset,Property Damage Crash,49
+8,St. Marys,Fatal Crash,1
+8,St. Marys,Injury Crash,165
+8,St. Marys,Property Damage Crash,289
+8,Talbot,Fatal Crash,1
+8,Talbot,Injury Crash,74
+8,Talbot,Property Damage Crash,148
+8,Washington,Fatal Crash,4
+8,Washington,Injury Crash,240
+8,Washington,Property Damage Crash,529
+8,Wicomico,Fatal Crash,2
+8,Wicomico,Injury Crash,235
+8,Wicomico,Property Damage Crash,461
+8,Worcester,Fatal Crash,3
+8,Worcester,Injury Crash,120
+8,Worcester,Property Damage Crash,225
+9,Allegany,Fatal Crash,2
+9,Allegany,Injury Crash,72
+9,Allegany,Property Damage Crash,127
 9,Anne Arundel,Fatal Crash,6
 9,Anne Arundel,Injury Crash,909
 9,Anne Arundel,Property Damage Crash,2096
+9,Baltimore,Fatal Crash,6
+9,Baltimore,Injury Crash,1397
+9,Baltimore,Property Damage Crash,4867
+9,Baltimore City,Fatal Crash,1
+9,Baltimore City,Injury Crash,1561
+9,Baltimore City,Property Damage Crash,4231
+9,Calvert,Fatal Crash,1
+9,Calvert,Injury Crash,91
+9,Calvert,Property Damage Crash,193
+9,Caroline,Fatal Crash,1
+9,Caroline,Injury Crash,56
+9,Caroline,Property Damage Crash,70
+9,Carroll,Fatal Crash,2
+9,Carroll,Injury Crash,170
+9,Carroll,Property Damage Crash,414
+9,Cecil,Fatal Crash,4
+9,Cecil,Injury Crash,123
+9,Cecil,Property Damage Crash,305
+9,Charles,Fatal Crash,3
+9,Charles,Injury Crash,223
+9,Charles,Property Damage Crash,497
+9,Dorchester,Injury Crash,54
+9,Dorchester,Property Damage Crash,93
+9,Frederick,Fatal Crash,8
+9,Frederick,Injury Crash,328
+9,Frederick,Property Damage Crash,694
+9,Garrett,Fatal Crash,3
+9,Garrett,Injury Crash,51
+9,Garrett,Property Damage Crash,95
+9,Harford,Fatal Crash,2
+9,Harford,Injury Crash,242
+9,Harford,Property Damage Crash,588
 9,Howard,Fatal Crash,3
 9,Howard,Injury Crash,293
 9,Howard,Property Damage Crash,941
+9,Kent,Fatal Crash,2
+9,Kent,Injury Crash,23
+9,Kent,Property Damage Crash,43
 9,Montgomery,Fatal Crash,7
 9,Montgomery,Injury Crash,1569
 9,Montgomery,Property Damage Crash,2974
@@ -146,12 +670,66 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 9,Queen Annes,Fatal Crash,2
 9,Queen Annes,Injury Crash,81
 9,Queen Annes,Property Damage Crash,132
+9,Somerset,Injury Crash,27
+9,Somerset,Property Damage Crash,69
+9,St. Marys,Fatal Crash,6
+9,St. Marys,Injury Crash,163
+9,St. Marys,Property Damage Crash,262
+9,Talbot,Fatal Crash,1
+9,Talbot,Injury Crash,78
+9,Talbot,Property Damage Crash,166
+9,Washington,Fatal Crash,2
+9,Washington,Injury Crash,212
+9,Washington,Property Damage Crash,494
+9,Wicomico,Fatal Crash,1
+9,Wicomico,Injury Crash,180
+9,Wicomico,Property Damage Crash,392
+9,Worcester,Fatal Crash,2
+9,Worcester,Injury Crash,122
+9,Worcester,Property Damage Crash,275
+10,Allegany,Fatal Crash,1
+10,Allegany,Injury Crash,55
+10,Allegany,Property Damage Crash,143
 10,Anne Arundel,Fatal Crash,6
 10,Anne Arundel,Injury Crash,930
 10,Anne Arundel,Property Damage Crash,2022
+10,Baltimore,Fatal Crash,7
+10,Baltimore,Injury Crash,1340
+10,Baltimore,Property Damage Crash,4615
+10,Baltimore City,Fatal Crash,6
+10,Baltimore City,Injury Crash,1660
+10,Baltimore City,Property Damage Crash,4086
+10,Calvert,Fatal Crash,1
+10,Calvert,Injury Crash,115
+10,Calvert,Property Damage Crash,222
+10,Caroline,Fatal Crash,2
+10,Caroline,Injury Crash,42
+10,Caroline,Property Damage Crash,78
+10,Carroll,Fatal Crash,3
+10,Carroll,Injury Crash,171
+10,Carroll,Property Damage Crash,403
+10,Cecil,Fatal Crash,4
+10,Cecil,Injury Crash,135
+10,Cecil,Property Damage Crash,369
+10,Charles,Fatal Crash,4
+10,Charles,Injury Crash,251
+10,Charles,Property Damage Crash,551
+10,Dorchester,Fatal Crash,1
+10,Dorchester,Injury Crash,64
+10,Dorchester,Property Damage Crash,109
+10,Frederick,Fatal Crash,4
+10,Frederick,Injury Crash,353
+10,Frederick,Property Damage Crash,706
+10,Garrett,Injury Crash,75
+10,Garrett,Property Damage Crash,98
+10,Harford,Fatal Crash,2
+10,Harford,Injury Crash,244
+10,Harford,Property Damage Crash,667
 10,Howard,Fatal Crash,5
 10,Howard,Injury Crash,284
 10,Howard,Property Damage Crash,773
+10,Kent,Injury Crash,18
+10,Kent,Property Damage Crash,42
 10,Montgomery,Fatal Crash,10
 10,Montgomery,Injury Crash,1389
 10,Montgomery,Property Damage Crash,2654
@@ -161,12 +739,67 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 10,Queen Annes,Fatal Crash,3
 10,Queen Annes,Injury Crash,68
 10,Queen Annes,Property Damage Crash,170
+10,Somerset,Injury Crash,30
+10,Somerset,Property Damage Crash,64
+10,St. Marys,Fatal Crash,1
+10,St. Marys,Injury Crash,178
+10,St. Marys,Property Damage Crash,294
+10,Talbot,Fatal Crash,1
+10,Talbot,Injury Crash,90
+10,Talbot,Property Damage Crash,195
+10,Washington,Fatal Crash,6
+10,Washington,Injury Crash,226
+10,Washington,Property Damage Crash,539
+10,Wicomico,Fatal Crash,1
+10,Wicomico,Injury Crash,233
+10,Wicomico,Property Damage Crash,421
+10,Worcester,Fatal Crash,2
+10,Worcester,Injury Crash,131
+10,Worcester,Property Damage Crash,309
+11,Allegany,Fatal Crash,1
+11,Allegany,Injury Crash,101
+11,Allegany,Property Damage Crash,148
 11,Anne Arundel,Fatal Crash,14
 11,Anne Arundel,Injury Crash,1022
 11,Anne Arundel,Property Damage Crash,2248
+11,Baltimore,Fatal Crash,3
+11,Baltimore,Injury Crash,1554
+11,Baltimore,Property Damage Crash,5134
+11,Baltimore City,Fatal Crash,3
+11,Baltimore City,Injury Crash,1737
+11,Baltimore City,Property Damage Crash,4270
+11,Calvert,Fatal Crash,3
+11,Calvert,Injury Crash,125
+11,Calvert,Property Damage Crash,267
+11,Caroline,Fatal Crash,2
+11,Caroline,Injury Crash,54
+11,Caroline,Property Damage Crash,96
+11,Carroll,Fatal Crash,6
+11,Carroll,Injury Crash,200
+11,Carroll,Property Damage Crash,524
+11,Cecil,Fatal Crash,6
+11,Cecil,Injury Crash,161
+11,Cecil,Property Damage Crash,399
+11,Charles,Fatal Crash,9
+11,Charles,Injury Crash,276
+11,Charles,Property Damage Crash,626
+11,Dorchester,Fatal Crash,1
+11,Dorchester,Injury Crash,87
+11,Dorchester,Property Damage Crash,118
+11,Frederick,Fatal Crash,4
+11,Frederick,Injury Crash,340
+11,Frederick,Property Damage Crash,712
+11,Garrett,Fatal Crash,1
+11,Garrett,Injury Crash,52
+11,Garrett,Property Damage Crash,125
+11,Harford,Fatal Crash,7
+11,Harford,Injury Crash,321
+11,Harford,Property Damage Crash,776
 11,Howard,Fatal Crash,4
 11,Howard,Injury Crash,317
 11,Howard,Property Damage Crash,851
+11,Kent,Injury Crash,28
+11,Kent,Property Damage Crash,42
 11,Montgomery,Fatal Crash,7
 11,Montgomery,Injury Crash,1467
 11,Montgomery,Property Damage Crash,2768
@@ -176,12 +809,67 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 11,Queen Annes,Fatal Crash,1
 11,Queen Annes,Injury Crash,71
 11,Queen Annes,Property Damage Crash,205
+11,Somerset,Fatal Crash,4
+11,Somerset,Injury Crash,32
+11,Somerset,Property Damage Crash,48
+11,St. Marys,Fatal Crash,6
+11,St. Marys,Injury Crash,226
+11,St. Marys,Property Damage Crash,338
+11,Talbot,Injury Crash,98
+11,Talbot,Property Damage Crash,233
+11,Washington,Fatal Crash,4
+11,Washington,Injury Crash,267
+11,Washington,Property Damage Crash,625
+11,Wicomico,Fatal Crash,2
+11,Wicomico,Injury Crash,285
+11,Wicomico,Property Damage Crash,493
+11,Worcester,Fatal Crash,5
+11,Worcester,Injury Crash,170
+11,Worcester,Property Damage Crash,372
+12,Allegany,Fatal Crash,2
+12,Allegany,Injury Crash,97
+12,Allegany,Property Damage Crash,169
 12,Anne Arundel,Fatal Crash,14
 12,Anne Arundel,Injury Crash,1253
 12,Anne Arundel,Property Damage Crash,2555
+12,Baltimore,Fatal Crash,5
+12,Baltimore,Injury Crash,1845
+12,Baltimore,Property Damage Crash,6724
+12,Baltimore City,Fatal Crash,5
+12,Baltimore City,Injury Crash,1938
+12,Baltimore City,Property Damage Crash,4699
+12,Calvert,Fatal Crash,4
+12,Calvert,Injury Crash,136
+12,Calvert,Property Damage Crash,290
+12,Caroline,Fatal Crash,2
+12,Caroline,Injury Crash,54
+12,Caroline,Property Damage Crash,116
+12,Carroll,Fatal Crash,2
+12,Carroll,Injury Crash,210
+12,Carroll,Property Damage Crash,559
+12,Cecil,Fatal Crash,6
+12,Cecil,Injury Crash,205
+12,Cecil,Property Damage Crash,448
+12,Charles,Fatal Crash,5
+12,Charles,Injury Crash,327
+12,Charles,Property Damage Crash,763
+12,Dorchester,Fatal Crash,3
+12,Dorchester,Injury Crash,84
+12,Dorchester,Property Damage Crash,125
+12,Frederick,Fatal Crash,8
+12,Frederick,Injury Crash,465
+12,Frederick,Property Damage Crash,860
+12,Garrett,Fatal Crash,4
+12,Garrett,Injury Crash,69
+12,Garrett,Property Damage Crash,111
+12,Harford,Fatal Crash,6
+12,Harford,Injury Crash,374
+12,Harford,Property Damage Crash,929
 12,Howard,Fatal Crash,8
 12,Howard,Injury Crash,343
 12,Howard,Property Damage Crash,893
+12,Kent,Injury Crash,29
+12,Kent,Property Damage Crash,51
 12,Montgomery,Fatal Crash,6
 12,Montgomery,Injury Crash,1613
 12,Montgomery,Property Damage Crash,3205
@@ -191,12 +879,69 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 12,Queen Annes,Fatal Crash,2
 12,Queen Annes,Injury Crash,106
 12,Queen Annes,Property Damage Crash,191
+12,Somerset,Fatal Crash,3
+12,Somerset,Injury Crash,34
+12,Somerset,Property Damage Crash,81
+12,St. Marys,Fatal Crash,3
+12,St. Marys,Injury Crash,279
+12,St. Marys,Property Damage Crash,428
+12,Talbot,Fatal Crash,3
+12,Talbot,Injury Crash,140
+12,Talbot,Property Damage Crash,251
+12,Washington,Fatal Crash,3
+12,Washington,Injury Crash,305
+12,Washington,Property Damage Crash,697
+12,Wicomico,Fatal Crash,1
+12,Wicomico,Injury Crash,359
+12,Wicomico,Property Damage Crash,638
+12,Worcester,Fatal Crash,3
+12,Worcester,Injury Crash,166
+12,Worcester,Property Damage Crash,363
+13,Allegany,Fatal Crash,3
+13,Allegany,Injury Crash,103
+13,Allegany,Property Damage Crash,182
 13,Anne Arundel,Fatal Crash,23
 13,Anne Arundel,Injury Crash,1196
 13,Anne Arundel,Property Damage Crash,2639
+13,Baltimore,Fatal Crash,16
+13,Baltimore,Injury Crash,1754
+13,Baltimore,Property Damage Crash,5613
+13,Baltimore City,Fatal Crash,5
+13,Baltimore City,Injury Crash,2016
+13,Baltimore City,Property Damage Crash,4877
+13,Calvert,Fatal Crash,2
+13,Calvert,Injury Crash,152
+13,Calvert,Property Damage Crash,301
+13,Caroline,Fatal Crash,1
+13,Caroline,Injury Crash,68
+13,Caroline,Property Damage Crash,103
+13,Carroll,Fatal Crash,4
+13,Carroll,Injury Crash,206
+13,Carroll,Property Damage Crash,517
+13,Cecil,Fatal Crash,9
+13,Cecil,Injury Crash,202
+13,Cecil,Property Damage Crash,433
+13,Charles,Fatal Crash,2
+13,Charles,Injury Crash,366
+13,Charles,Property Damage Crash,812
+13,Dorchester,Fatal Crash,2
+13,Dorchester,Injury Crash,72
+13,Dorchester,Property Damage Crash,117
+13,Frederick,Fatal Crash,7
+13,Frederick,Injury Crash,417
+13,Frederick,Property Damage Crash,857
+13,Garrett,Fatal Crash,6
+13,Garrett,Injury Crash,75
+13,Garrett,Property Damage Crash,124
+13,Harford,Fatal Crash,6
+13,Harford,Injury Crash,421
+13,Harford,Property Damage Crash,854
 13,Howard,Fatal Crash,5
 13,Howard,Injury Crash,359
 13,Howard,Property Damage Crash,1014
+13,Kent,Fatal Crash,2
+13,Kent,Injury Crash,29
+13,Kent,Property Damage Crash,58
 13,Montgomery,Fatal Crash,8
 13,Montgomery,Injury Crash,1666
 13,Montgomery,Property Damage Crash,3204
@@ -206,12 +951,68 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 13,Queen Annes,Fatal Crash,1
 13,Queen Annes,Injury Crash,86
 13,Queen Annes,Property Damage Crash,207
+13,Somerset,Fatal Crash,3
+13,Somerset,Injury Crash,26
+13,Somerset,Property Damage Crash,76
+13,St. Marys,Fatal Crash,3
+13,St. Marys,Injury Crash,255
+13,St. Marys,Property Damage Crash,375
+13,Talbot,Fatal Crash,1
+13,Talbot,Injury Crash,137
+13,Talbot,Property Damage Crash,237
+13,Washington,Fatal Crash,7
+13,Washington,Injury Crash,308
+13,Washington,Property Damage Crash,654
+13,Wicomico,Fatal Crash,6
+13,Wicomico,Injury Crash,348
+13,Wicomico,Property Damage Crash,554
+13,Worcester,Fatal Crash,2
+13,Worcester,Injury Crash,172
+13,Worcester,Property Damage Crash,331
+14,Allegany,Fatal Crash,3
+14,Allegany,Injury Crash,136
+14,Allegany,Property Damage Crash,208
 14,Anne Arundel,Fatal Crash,7
 14,Anne Arundel,Injury Crash,1376
 14,Anne Arundel,Property Damage Crash,3022
+14,Baltimore,Fatal Crash,20
+14,Baltimore,Injury Crash,2167
+14,Baltimore,Property Damage Crash,6276
+14,Baltimore City,Fatal Crash,1
+14,Baltimore City,Injury Crash,2220
+14,Baltimore City,Property Damage Crash,4862
+14,Calvert,Fatal Crash,2
+14,Calvert,Injury Crash,156
+14,Calvert,Property Damage Crash,315
+14,Caroline,Fatal Crash,2
+14,Caroline,Injury Crash,82
+14,Caroline,Property Damage Crash,132
+14,Carroll,Fatal Crash,7
+14,Carroll,Injury Crash,264
+14,Carroll,Property Damage Crash,605
+14,Cecil,Fatal Crash,6
+14,Cecil,Injury Crash,228
+14,Cecil,Property Damage Crash,443
+14,Charles,Fatal Crash,7
+14,Charles,Injury Crash,399
+14,Charles,Property Damage Crash,844
+14,Dorchester,Injury Crash,92
+14,Dorchester,Property Damage Crash,151
+14,Frederick,Fatal Crash,3
+14,Frederick,Injury Crash,507
+14,Frederick,Property Damage Crash,1005
+14,Garrett,Fatal Crash,3
+14,Garrett,Injury Crash,78
+14,Garrett,Property Damage Crash,128
+14,Harford,Fatal Crash,7
+14,Harford,Injury Crash,431
+14,Harford,Property Damage Crash,1002
 14,Howard,Fatal Crash,8
 14,Howard,Injury Crash,445
 14,Howard,Property Damage Crash,1266
+14,Kent,Fatal Crash,2
+14,Kent,Injury Crash,44
+14,Kent,Property Damage Crash,57
 14,Montgomery,Fatal Crash,6
 14,Montgomery,Injury Crash,1801
 14,Montgomery,Property Damage Crash,3538
@@ -221,12 +1022,68 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 14,Queen Annes,Fatal Crash,1
 14,Queen Annes,Injury Crash,104
 14,Queen Annes,Property Damage Crash,202
+14,Somerset,Fatal Crash,1
+14,Somerset,Injury Crash,46
+14,Somerset,Property Damage Crash,86
+14,St. Marys,Fatal Crash,3
+14,St. Marys,Injury Crash,261
+14,St. Marys,Property Damage Crash,429
+14,Talbot,Injury Crash,122
+14,Talbot,Property Damage Crash,245
+14,Washington,Fatal Crash,6
+14,Washington,Injury Crash,346
+14,Washington,Property Damage Crash,760
+14,Wicomico,Fatal Crash,6
+14,Wicomico,Injury Crash,353
+14,Wicomico,Property Damage Crash,677
+14,Worcester,Fatal Crash,2
+14,Worcester,Injury Crash,204
+14,Worcester,Property Damage Crash,356
+15,Allegany,Fatal Crash,5
+15,Allegany,Injury Crash,118
+15,Allegany,Property Damage Crash,233
 15,Anne Arundel,Fatal Crash,19
 15,Anne Arundel,Injury Crash,1616
 15,Anne Arundel,Property Damage Crash,3553
+15,Baltimore,Fatal Crash,17
+15,Baltimore,Injury Crash,2535
+15,Baltimore,Property Damage Crash,7855
+15,Baltimore City,Fatal Crash,3
+15,Baltimore City,Injury Crash,2836
+15,Baltimore City,Property Damage Crash,6144
+15,Calvert,Fatal Crash,3
+15,Calvert,Injury Crash,189
+15,Calvert,Property Damage Crash,349
+15,Caroline,Fatal Crash,1
+15,Caroline,Injury Crash,85
+15,Caroline,Property Damage Crash,150
+15,Carroll,Fatal Crash,5
+15,Carroll,Injury Crash,311
+15,Carroll,Property Damage Crash,751
+15,Cecil,Fatal Crash,8
+15,Cecil,Injury Crash,257
+15,Cecil,Property Damage Crash,508
+15,Charles,Fatal Crash,12
+15,Charles,Injury Crash,471
+15,Charles,Property Damage Crash,910
+15,Dorchester,Fatal Crash,2
+15,Dorchester,Injury Crash,104
+15,Dorchester,Property Damage Crash,123
+15,Frederick,Fatal Crash,12
+15,Frederick,Injury Crash,610
+15,Frederick,Property Damage Crash,1257
+15,Garrett,Fatal Crash,4
+15,Garrett,Injury Crash,88
+15,Garrett,Property Damage Crash,153
+15,Harford,Fatal Crash,5
+15,Harford,Injury Crash,514
+15,Harford,Property Damage Crash,1232
 15,Howard,Fatal Crash,5
 15,Howard,Injury Crash,484
 15,Howard,Property Damage Crash,1414
+15,Kent,Fatal Crash,2
+15,Kent,Injury Crash,31
+15,Kent,Property Damage Crash,65
 15,Montgomery,Fatal Crash,13
 15,Montgomery,Injury Crash,2089
 15,Montgomery,Property Damage Crash,4204
@@ -236,12 +1093,67 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 15,Queen Annes,Fatal Crash,5
 15,Queen Annes,Injury Crash,119
 15,Queen Annes,Property Damage Crash,239
+15,Somerset,Fatal Crash,2
+15,Somerset,Injury Crash,75
+15,Somerset,Property Damage Crash,88
+15,St. Marys,Fatal Crash,4
+15,St. Marys,Injury Crash,341
+15,St. Marys,Property Damage Crash,508
+15,Talbot,Fatal Crash,3
+15,Talbot,Injury Crash,138
+15,Talbot,Property Damage Crash,269
+15,Washington,Fatal Crash,7
+15,Washington,Injury Crash,421
+15,Washington,Property Damage Crash,875
+15,Wicomico,Fatal Crash,4
+15,Wicomico,Injury Crash,396
+15,Wicomico,Property Damage Crash,686
+15,Worcester,Fatal Crash,2
+15,Worcester,Injury Crash,213
+15,Worcester,Property Damage Crash,418
+16,Allegany,Fatal Crash,4
+16,Allegany,Injury Crash,112
+16,Allegany,Property Damage Crash,229
 16,Anne Arundel,Fatal Crash,14
 16,Anne Arundel,Injury Crash,1744
 16,Anne Arundel,Property Damage Crash,3632
+16,Baltimore,Fatal Crash,14
+16,Baltimore,Injury Crash,2457
+16,Baltimore,Property Damage Crash,7924
+16,Baltimore City,Fatal Crash,9
+16,Baltimore City,Injury Crash,2692
+16,Baltimore City,Property Damage Crash,5843
+16,Calvert,Fatal Crash,5
+16,Calvert,Injury Crash,199
+16,Calvert,Property Damage Crash,371
+16,Caroline,Fatal Crash,2
+16,Caroline,Injury Crash,81
+16,Caroline,Property Damage Crash,150
+16,Carroll,Fatal Crash,5
+16,Carroll,Injury Crash,325
+16,Carroll,Property Damage Crash,775
+16,Cecil,Fatal Crash,5
+16,Cecil,Injury Crash,296
+16,Cecil,Property Damage Crash,545
+16,Charles,Fatal Crash,5
+16,Charles,Injury Crash,477
+16,Charles,Property Damage Crash,964
+16,Dorchester,Fatal Crash,3
+16,Dorchester,Injury Crash,114
+16,Dorchester,Property Damage Crash,146
+16,Frederick,Fatal Crash,8
+16,Frederick,Injury Crash,584
+16,Frederick,Property Damage Crash,1142
+16,Garrett,Injury Crash,86
+16,Garrett,Property Damage Crash,142
+16,Harford,Fatal Crash,7
+16,Harford,Injury Crash,560
+16,Harford,Property Damage Crash,1217
 16,Howard,Fatal Crash,6
 16,Howard,Injury Crash,512
 16,Howard,Property Damage Crash,1516
+16,Kent,Injury Crash,38
+16,Kent,Property Damage Crash,61
 16,Montgomery,Fatal Crash,10
 16,Montgomery,Injury Crash,2080
 16,Montgomery,Property Damage Crash,4343
@@ -251,12 +1163,68 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 16,Queen Annes,Fatal Crash,2
 16,Queen Annes,Injury Crash,108
 16,Queen Annes,Property Damage Crash,258
+16,Somerset,Fatal Crash,1
+16,Somerset,Injury Crash,54
+16,Somerset,Property Damage Crash,91
+16,St. Marys,Fatal Crash,5
+16,St. Marys,Injury Crash,355
+16,St. Marys,Property Damage Crash,587
+16,Talbot,Fatal Crash,4
+16,Talbot,Injury Crash,145
+16,Talbot,Property Damage Crash,256
+16,Washington,Fatal Crash,2
+16,Washington,Injury Crash,455
+16,Washington,Property Damage Crash,955
+16,Wicomico,Fatal Crash,4
+16,Wicomico,Injury Crash,429
+16,Wicomico,Property Damage Crash,665
+16,Worcester,Fatal Crash,3
+16,Worcester,Injury Crash,208
+16,Worcester,Property Damage Crash,424
+17,Allegany,Fatal Crash,5
+17,Allegany,Injury Crash,98
+17,Allegany,Property Damage Crash,144
 17,Anne Arundel,Fatal Crash,16
 17,Anne Arundel,Injury Crash,1740
 17,Anne Arundel,Property Damage Crash,3733
+17,Baltimore,Fatal Crash,22
+17,Baltimore,Injury Crash,2621
+17,Baltimore,Property Damage Crash,8005
+17,Baltimore City,Fatal Crash,5
+17,Baltimore City,Injury Crash,2711
+17,Baltimore City,Property Damage Crash,6349
+17,Calvert,Fatal Crash,6
+17,Calvert,Injury Crash,211
+17,Calvert,Property Damage Crash,391
+17,Caroline,Injury Crash,72
+17,Caroline,Property Damage Crash,154
+17,Carroll,Fatal Crash,4
+17,Carroll,Injury Crash,299
+17,Carroll,Property Damage Crash,762
+17,Cecil,Fatal Crash,7
+17,Cecil,Injury Crash,259
+17,Cecil,Property Damage Crash,522
+17,Charles,Fatal Crash,5
+17,Charles,Injury Crash,441
+17,Charles,Property Damage Crash,975
+17,Dorchester,Fatal Crash,1
+17,Dorchester,Injury Crash,97
+17,Dorchester,Property Damage Crash,145
+17,Frederick,Fatal Crash,9
+17,Frederick,Injury Crash,617
+17,Frederick,Property Damage Crash,1278
+17,Garrett,Fatal Crash,1
+17,Garrett,Injury Crash,91
+17,Garrett,Property Damage Crash,136
+17,Harford,Fatal Crash,8
+17,Harford,Injury Crash,586
+17,Harford,Property Damage Crash,1351
 17,Howard,Fatal Crash,8
 17,Howard,Injury Crash,501
 17,Howard,Property Damage Crash,1611
+17,Kent,Fatal Crash,3
+17,Kent,Injury Crash,31
+17,Kent,Property Damage Crash,65
 17,Montgomery,Fatal Crash,14
 17,Montgomery,Injury Crash,2309
 17,Montgomery,Property Damage Crash,4306
@@ -266,12 +1234,68 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 17,Queen Annes,Fatal Crash,2
 17,Queen Annes,Injury Crash,126
 17,Queen Annes,Property Damage Crash,255
+17,Somerset,Fatal Crash,2
+17,Somerset,Injury Crash,42
+17,Somerset,Property Damage Crash,95
+17,St. Marys,Fatal Crash,5
+17,St. Marys,Injury Crash,311
+17,St. Marys,Property Damage Crash,533
+17,Talbot,Fatal Crash,1
+17,Talbot,Injury Crash,108
+17,Talbot,Property Damage Crash,223
+17,Washington,Fatal Crash,6
+17,Washington,Injury Crash,410
+17,Washington,Property Damage Crash,883
+17,Wicomico,Fatal Crash,2
+17,Wicomico,Injury Crash,427
+17,Wicomico,Property Damage Crash,756
+17,Worcester,Fatal Crash,8
+17,Worcester,Injury Crash,197
+17,Worcester,Property Damage Crash,415
+18,Allegany,Fatal Crash,1
+18,Allegany,Injury Crash,93
+18,Allegany,Property Damage Crash,164
 18,Anne Arundel,Fatal Crash,13
 18,Anne Arundel,Injury Crash,1372
 18,Anne Arundel,Property Damage Crash,2910
+18,Baltimore,Fatal Crash,12
+18,Baltimore,Injury Crash,2188
+18,Baltimore,Property Damage Crash,6800
+18,Baltimore City,Fatal Crash,5
+18,Baltimore City,Injury Crash,2359
+18,Baltimore City,Property Damage Crash,5253
+18,Calvert,Fatal Crash,3
+18,Calvert,Injury Crash,147
+18,Calvert,Property Damage Crash,290
+18,Caroline,Fatal Crash,5
+18,Caroline,Injury Crash,66
+18,Caroline,Property Damage Crash,135
+18,Carroll,Fatal Crash,7
+18,Carroll,Injury Crash,233
+18,Carroll,Property Damage Crash,599
+18,Cecil,Fatal Crash,7
+18,Cecil,Injury Crash,214
+18,Cecil,Property Damage Crash,505
+18,Charles,Fatal Crash,8
+18,Charles,Injury Crash,369
+18,Charles,Property Damage Crash,772
+18,Dorchester,Fatal Crash,1
+18,Dorchester,Injury Crash,80
+18,Dorchester,Property Damage Crash,114
+18,Frederick,Fatal Crash,9
+18,Frederick,Injury Crash,486
+18,Frederick,Property Damage Crash,987
+18,Garrett,Injury Crash,71
+18,Garrett,Property Damage Crash,117
+18,Harford,Fatal Crash,6
+18,Harford,Injury Crash,431
+18,Harford,Property Damage Crash,987
 18,Howard,Fatal Crash,6
 18,Howard,Injury Crash,428
 18,Howard,Property Damage Crash,1232
+18,Kent,Fatal Crash,3
+18,Kent,Injury Crash,31
+18,Kent,Property Damage Crash,63
 18,Montgomery,Fatal Crash,17
 18,Montgomery,Injury Crash,2056
 18,Montgomery,Property Damage Crash,3765
@@ -281,12 +1305,67 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 18,Queen Annes,Fatal Crash,2
 18,Queen Annes,Injury Crash,97
 18,Queen Annes,Property Damage Crash,238
+18,Somerset,Fatal Crash,5
+18,Somerset,Injury Crash,33
+18,Somerset,Property Damage Crash,79
+18,St. Marys,Fatal Crash,5
+18,St. Marys,Injury Crash,234
+18,St. Marys,Property Damage Crash,392
+18,Talbot,Fatal Crash,2
+18,Talbot,Injury Crash,89
+18,Talbot,Property Damage Crash,162
+18,Washington,Fatal Crash,8
+18,Washington,Injury Crash,324
+18,Washington,Property Damage Crash,695
+18,Wicomico,Fatal Crash,2
+18,Wicomico,Injury Crash,309
+18,Wicomico,Property Damage Crash,581
+18,Worcester,Fatal Crash,1
+18,Worcester,Injury Crash,142
+18,Worcester,Property Damage Crash,383
+19,Allegany,Fatal Crash,3
+19,Allegany,Injury Crash,71
+19,Allegany,Property Damage Crash,123
 19,Anne Arundel,Fatal Crash,15
 19,Anne Arundel,Injury Crash,1005
 19,Anne Arundel,Property Damage Crash,2135
+19,Baltimore,Fatal Crash,17
+19,Baltimore,Injury Crash,1585
+19,Baltimore,Property Damage Crash,5175
+19,Baltimore City,Injury Crash,1963
+19,Baltimore City,Property Damage Crash,4228
+19,Calvert,Fatal Crash,1
+19,Calvert,Injury Crash,98
+19,Calvert,Property Damage Crash,252
+19,Caroline,Fatal Crash,1
+19,Caroline,Injury Crash,44
+19,Caroline,Property Damage Crash,94
+19,Carroll,Fatal Crash,5
+19,Carroll,Injury Crash,155
+19,Carroll,Property Damage Crash,411
+19,Cecil,Fatal Crash,12
+19,Cecil,Injury Crash,187
+19,Cecil,Property Damage Crash,375
+19,Charles,Fatal Crash,12
+19,Charles,Injury Crash,283
+19,Charles,Property Damage Crash,673
+19,Dorchester,Fatal Crash,1
+19,Dorchester,Injury Crash,52
+19,Dorchester,Property Damage Crash,93
+19,Frederick,Fatal Crash,3
+19,Frederick,Injury Crash,359
+19,Frederick,Property Damage Crash,701
+19,Garrett,Fatal Crash,1
+19,Garrett,Injury Crash,50
+19,Garrett,Property Damage Crash,105
+19,Harford,Fatal Crash,6
+19,Harford,Injury Crash,323
+19,Harford,Property Damage Crash,675
 19,Howard,Fatal Crash,9
 19,Howard,Injury Crash,316
 19,Howard,Property Damage Crash,894
+19,Kent,Injury Crash,19
+19,Kent,Property Damage Crash,59
 19,Montgomery,Fatal Crash,12
 19,Montgomery,Injury Crash,1486
 19,Montgomery,Property Damage Crash,2729
@@ -296,12 +1375,66 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 19,Queen Annes,Fatal Crash,1
 19,Queen Annes,Injury Crash,73
 19,Queen Annes,Property Damage Crash,171
+19,Somerset,Injury Crash,28
+19,Somerset,Property Damage Crash,82
+19,St. Marys,Fatal Crash,5
+19,St. Marys,Injury Crash,196
+19,St. Marys,Property Damage Crash,338
+19,Talbot,Injury Crash,58
+19,Talbot,Property Damage Crash,129
+19,Washington,Fatal Crash,9
+19,Washington,Injury Crash,246
+19,Washington,Property Damage Crash,505
+19,Wicomico,Fatal Crash,4
+19,Wicomico,Injury Crash,218
+19,Wicomico,Property Damage Crash,438
+19,Worcester,Fatal Crash,3
+19,Worcester,Injury Crash,134
+19,Worcester,Property Damage Crash,317
+20,Allegany,Injury Crash,51
+20,Allegany,Property Damage Crash,129
 20,Anne Arundel,Fatal Crash,17
 20,Anne Arundel,Injury Crash,867
 20,Anne Arundel,Property Damage Crash,1850
+20,Baltimore,Fatal Crash,20
+20,Baltimore,Injury Crash,1411
+20,Baltimore,Property Damage Crash,4412
+20,Baltimore City,Fatal Crash,8
+20,Baltimore City,Injury Crash,1675
+20,Baltimore City,Property Damage Crash,3703
+20,Calvert,Fatal Crash,4
+20,Calvert,Injury Crash,92
+20,Calvert,Property Damage Crash,238
+20,Caroline,Fatal Crash,2
+20,Caroline,Injury Crash,38
+20,Caroline,Property Damage Crash,90
+20,Carroll,Fatal Crash,4
+20,Carroll,Injury Crash,138
+20,Carroll,Property Damage Crash,352
+20,Cecil,Fatal Crash,6
+20,Cecil,Injury Crash,163
+20,Cecil,Property Damage Crash,353
+20,Charles,Fatal Crash,11
+20,Charles,Injury Crash,256
+20,Charles,Property Damage Crash,617
+20,Dorchester,Fatal Crash,1
+20,Dorchester,Injury Crash,41
+20,Dorchester,Property Damage Crash,75
+20,Frederick,Fatal Crash,6
+20,Frederick,Injury Crash,249
+20,Frederick,Property Damage Crash,604
+20,Garrett,Fatal Crash,1
+20,Garrett,Injury Crash,33
+20,Garrett,Property Damage Crash,97
+20,Harford,Fatal Crash,6
+20,Harford,Injury Crash,284
+20,Harford,Property Damage Crash,613
 20,Howard,Fatal Crash,4
 20,Howard,Injury Crash,254
 20,Howard,Property Damage Crash,754
+20,Kent,Fatal Crash,4
+20,Kent,Injury Crash,18
+20,Kent,Property Damage Crash,47
 20,Montgomery,Fatal Crash,15
 20,Montgomery,Injury Crash,1097
 20,Montgomery,Property Damage Crash,2132
@@ -311,12 +1444,67 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 20,Queen Annes,Fatal Crash,1
 20,Queen Annes,Injury Crash,55
 20,Queen Annes,Property Damage Crash,167
+20,Somerset,Fatal Crash,1
+20,Somerset,Injury Crash,20
+20,Somerset,Property Damage Crash,55
+20,St. Marys,Fatal Crash,6
+20,St. Marys,Injury Crash,170
+20,St. Marys,Property Damage Crash,299
+20,Talbot,Injury Crash,53
+20,Talbot,Property Damage Crash,121
+20,Washington,Fatal Crash,4
+20,Washington,Injury Crash,205
+20,Washington,Property Damage Crash,466
+20,Wicomico,Fatal Crash,6
+20,Wicomico,Injury Crash,200
+20,Wicomico,Property Damage Crash,395
+20,Worcester,Fatal Crash,6
+20,Worcester,Injury Crash,125
+20,Worcester,Property Damage Crash,310
+21,Allegany,Fatal Crash,2
+21,Allegany,Injury Crash,45
+21,Allegany,Property Damage Crash,122
 21,Anne Arundel,Fatal Crash,21
 21,Anne Arundel,Injury Crash,708
 21,Anne Arundel,Property Damage Crash,1702
+21,Baltimore,Fatal Crash,20
+21,Baltimore,Injury Crash,1170
+21,Baltimore,Property Damage Crash,3987
+21,Baltimore City,Fatal Crash,9
+21,Baltimore City,Injury Crash,1585
+21,Baltimore City,Property Damage Crash,3611
+21,Calvert,Fatal Crash,4
+21,Calvert,Injury Crash,76
+21,Calvert,Property Damage Crash,166
+21,Caroline,Fatal Crash,1
+21,Caroline,Injury Crash,29
+21,Caroline,Property Damage Crash,102
+21,Carroll,Fatal Crash,5
+21,Carroll,Injury Crash,113
+21,Carroll,Property Damage Crash,302
+21,Cecil,Fatal Crash,14
+21,Cecil,Injury Crash,152
+21,Cecil,Property Damage Crash,331
+21,Charles,Fatal Crash,5
+21,Charles,Injury Crash,235
+21,Charles,Property Damage Crash,545
+21,Dorchester,Fatal Crash,2
+21,Dorchester,Injury Crash,43
+21,Dorchester,Property Damage Crash,81
+21,Frederick,Fatal Crash,6
+21,Frederick,Injury Crash,272
+21,Frederick,Property Damage Crash,552
+21,Garrett,Fatal Crash,2
+21,Garrett,Injury Crash,33
+21,Garrett,Property Damage Crash,86
+21,Harford,Fatal Crash,6
+21,Harford,Injury Crash,234
+21,Harford,Property Damage Crash,584
 21,Howard,Fatal Crash,10
 21,Howard,Injury Crash,227
 21,Howard,Property Damage Crash,689
+21,Kent,Injury Crash,8
+21,Kent,Property Damage Crash,43
 21,Montgomery,Fatal Crash,15
 21,Montgomery,Injury Crash,994
 21,Montgomery,Property Damage Crash,1997
@@ -326,12 +1514,67 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 21,Queen Annes,Fatal Crash,3
 21,Queen Annes,Injury Crash,50
 21,Queen Annes,Property Damage Crash,154
+21,Somerset,Injury Crash,19
+21,Somerset,Property Damage Crash,55
+21,St. Marys,Fatal Crash,9
+21,St. Marys,Injury Crash,149
+21,St. Marys,Property Damage Crash,303
+21,Talbot,Fatal Crash,2
+21,Talbot,Injury Crash,49
+21,Talbot,Property Damage Crash,123
+21,Washington,Fatal Crash,6
+21,Washington,Injury Crash,161
+21,Washington,Property Damage Crash,433
+21,Wicomico,Fatal Crash,10
+21,Wicomico,Injury Crash,162
+21,Wicomico,Property Damage Crash,335
+21,Worcester,Fatal Crash,3
+21,Worcester,Injury Crash,129
+21,Worcester,Property Damage Crash,330
+22,Allegany,Injury Crash,42
+22,Allegany,Property Damage Crash,87
 22,Anne Arundel,Fatal Crash,20
 22,Anne Arundel,Injury Crash,617
 22,Anne Arundel,Property Damage Crash,1464
+22,Baltimore,Fatal Crash,15
+22,Baltimore,Injury Crash,1083
+22,Baltimore,Property Damage Crash,3378
+22,Baltimore City,Fatal Crash,7
+22,Baltimore City,Injury Crash,1298
+22,Baltimore City,Property Damage Crash,3164
+22,Calvert,Fatal Crash,3
+22,Calvert,Injury Crash,53
+22,Calvert,Property Damage Crash,165
+22,Caroline,Fatal Crash,2
+22,Caroline,Injury Crash,27
+22,Caroline,Property Damage Crash,101
+22,Carroll,Fatal Crash,3
+22,Carroll,Injury Crash,77
+22,Carroll,Property Damage Crash,277
+22,Cecil,Fatal Crash,8
+22,Cecil,Injury Crash,93
+22,Cecil,Property Damage Crash,278
+22,Charles,Fatal Crash,9
+22,Charles,Injury Crash,170
+22,Charles,Property Damage Crash,513
+22,Dorchester,Fatal Crash,2
+22,Dorchester,Injury Crash,38
+22,Dorchester,Property Damage Crash,99
+22,Frederick,Fatal Crash,5
+22,Frederick,Injury Crash,179
+22,Frederick,Property Damage Crash,471
+22,Garrett,Fatal Crash,3
+22,Garrett,Injury Crash,30
+22,Garrett,Property Damage Crash,94
+22,Harford,Fatal Crash,5
+22,Harford,Injury Crash,169
+22,Harford,Property Damage Crash,490
 22,Howard,Fatal Crash,8
 22,Howard,Injury Crash,203
 22,Howard,Property Damage Crash,596
+22,Kent,Fatal Crash,1
+22,Kent,Injury Crash,11
+22,Kent,Property Damage Crash,33
 22,Montgomery,Fatal Crash,12
 22,Montgomery,Injury Crash,731
 22,Montgomery,Property Damage Crash,1709
@@ -341,12 +1584,66 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 22,Queen Annes,Fatal Crash,1
 22,Queen Annes,Injury Crash,47
 22,Queen Annes,Property Damage Crash,123
+22,Somerset,Injury Crash,21
+22,Somerset,Property Damage Crash,60
+22,St. Marys,Fatal Crash,7
+22,St. Marys,Injury Crash,112
+22,St. Marys,Property Damage Crash,204
+22,Talbot,Fatal Crash,2
+22,Talbot,Injury Crash,31
+22,Talbot,Property Damage Crash,109
+22,Washington,Fatal Crash,5
+22,Washington,Injury Crash,144
+22,Washington,Property Damage Crash,377
+22,Wicomico,Fatal Crash,5
+22,Wicomico,Injury Crash,119
+22,Wicomico,Property Damage Crash,312
+22,Worcester,Fatal Crash,5
+22,Worcester,Injury Crash,100
+22,Worcester,Property Damage Crash,283
+23,Allegany,Fatal Crash,1
+23,Allegany,Injury Crash,36
+23,Allegany,Property Damage Crash,91
 23,Anne Arundel,Fatal Crash,7
 23,Anne Arundel,Injury Crash,439
 23,Anne Arundel,Property Damage Crash,1376
+23,Baltimore,Fatal Crash,23
+23,Baltimore,Injury Crash,817
+23,Baltimore,Property Damage Crash,3140
+23,Baltimore City,Fatal Crash,6
+23,Baltimore City,Injury Crash,1277
+23,Baltimore City,Property Damage Crash,3587
+23,Calvert,Fatal Crash,1
+23,Calvert,Injury Crash,45
+23,Calvert,Property Damage Crash,156
+23,Caroline,Fatal Crash,1
+23,Caroline,Injury Crash,21
+23,Caroline,Property Damage Crash,83
+23,Carroll,Fatal Crash,2
+23,Carroll,Injury Crash,67
+23,Carroll,Property Damage Crash,250
+23,Cecil,Fatal Crash,3
+23,Cecil,Injury Crash,72
+23,Cecil,Property Damage Crash,267
+23,Charles,Fatal Crash,12
+23,Charles,Injury Crash,126
+23,Charles,Property Damage Crash,427
+23,Dorchester,Injury Crash,28
+23,Dorchester,Property Damage Crash,77
+23,Frederick,Fatal Crash,7
+23,Frederick,Injury Crash,146
+23,Frederick,Property Damage Crash,428
+23,Garrett,Fatal Crash,1
+23,Garrett,Injury Crash,41
+23,Garrett,Property Damage Crash,66
+23,Harford,Fatal Crash,3
+23,Harford,Injury Crash,126
+23,Harford,Property Damage Crash,392
 23,Howard,Fatal Crash,10
 23,Howard,Injury Crash,162
 23,Howard,Property Damage Crash,561
+23,Kent,Injury Crash,6
+23,Kent,Property Damage Crash,36
 23,Montgomery,Fatal Crash,16
 23,Montgomery,Injury Crash,547
 23,Montgomery,Property Damage Crash,1480
@@ -356,3 +1653,19 @@ HOUR,COUNTY_DESC,REPORT_TYPE,COUNT
 23,Queen Annes,Fatal Crash,1
 23,Queen Annes,Injury Crash,36
 23,Queen Annes,Property Damage Crash,141
+23,Somerset,Injury Crash,13
+23,Somerset,Property Damage Crash,43
+23,St. Marys,Fatal Crash,3
+23,St. Marys,Injury Crash,88
+23,St. Marys,Property Damage Crash,208
+23,Talbot,Fatal Crash,2
+23,Talbot,Injury Crash,35
+23,Talbot,Property Damage Crash,82
+23,Washington,Injury Crash,106
+23,Washington,Property Damage Crash,342
+23,Wicomico,Fatal Crash,5
+23,Wicomico,Injury Crash,76
+23,Wicomico,Property Damage Crash,243
+23,Worcester,Fatal Crash,5
+23,Worcester,Injury Crash,101
+23,Worcester,Property Damage Crash,266
