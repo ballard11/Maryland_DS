@@ -18,6 +18,6 @@ https://opendata.maryland.gov/Public-Safety/Maryland-Statewide-Vehicle-Crashes/6
 The Crashes.py file creates plotly dashboard hosted here:
 https://maryland-crash-app.onrender.com/
 
-![Dashboard Preview](./assets/dashboard.jpg)
+![Dashboard Preview](./assets/dashboard.JPG)
 
 Note: This dashboard will receive updates - still in development.  Please reach out for questions or collaborations.
